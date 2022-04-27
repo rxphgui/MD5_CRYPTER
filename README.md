@@ -1,3 +1,3 @@
-# MD5_CRYPTER
+# MD5 hash
 
-MD5 crypter in golang
+MD5 hash in golang
