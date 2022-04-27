@@ -7,7 +7,7 @@ import (
 
 func main() {
 	var hash string
-	fmt.Printf("		MD5 CRYPTER\n")
+	fmt.Printf("		MD5 Hasher \n")
 	fmt.Printf("[+] Veuillez entrer vos données à crypter : ")
 	fmt.Scanf("%v", hash)
 
