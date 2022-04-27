@@ -6,11 +6,11 @@ import (
 )
 
 func main() {
-	var crypter string
+	var hash string
 	fmt.Printf("		MD5 CRYPTER\n")
 	fmt.Printf("[+] Veuillez entrer vos données à crypter : ")
-	fmt.Scanf("%v", crypter)
+	fmt.Scanf("%v", hash)
 
-	crypted := []byte(crypter)
-	fmt.Printf("Voici votre texte chiffré [ %x ]", md5.Sum(crypted))
+	hashed := []byte(hash)
+	fmt.Printf("Voici votre texte chiffré [ %x ]", md5.Sum(hashed))
 }
